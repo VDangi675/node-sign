@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json())
 
-const port = process.env.port || 8081
+const port = process.env.port || 2000
 
 if(process.env.NODE_ENV !=="production"){
     require("dotenv").config({path:"config.env"})
